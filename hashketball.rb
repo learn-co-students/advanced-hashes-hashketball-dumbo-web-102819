@@ -146,25 +146,6 @@ end
 
 
 
-#def most_points_scored()
-#  game_data=game_hash()
-#  result=0
-#  names=""
-#  game_data.each_value do |value|
-#    value[:players].each do |value1|
-#      if value1[:points] > result
-#        result= value1[:points]
-#        names = value1[:player_name]
-#      else
-#        result
-#        names
-#      end
-#    end
-#  end
-#  names
-#end
-
-
 def sum_scores(team_name)
   game_data=game_hash()
   result=[]
